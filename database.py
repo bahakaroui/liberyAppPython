@@ -40,3 +40,4 @@ def create_default_admin():
         db.commit()
         print("✅ Default admin created !")
     db.close()
+print("✅ Database initialized !")
